@@ -123,6 +123,7 @@ ol {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: top center;
+	background-image:url("img/icons/yes.jpg"); 
 }
 
 .spad {
@@ -909,10 +910,10 @@ ol {
 }
 
 .featured-box {
-	float: right;
+
 	width: calc(50% + 156px);
 	background: #fff;
-	padding: 100px 50px 130px 79px;
+	height: 500px;
 }
 
 .featured-box .text-box {
@@ -1013,14 +1014,20 @@ ol {
 
 .footer-left-pic {
 	position: absolute;
-	left: -13px;
-	bottom: 19px;
+	left: -50px;
+	bottom: 60px;
+	padding-right: 250px;
+	box-align: left;
 }
 
 .footer-right-pic {
 	position: absolute;
-	right: 50px;
-	bottom: 19px;
+	right: px;
+	bottom: 5px;
+	height:400px;
+	width: 450px;
+	
+	padding-left: 450px;
 }
 
 .footer-menu {
@@ -1530,7 +1537,11 @@ ol {
 		left: calc(50% - 585px);
 	}
 }
-
+.red{ 
+	width: 500px;
+	height: 550px;
+}
+.blue{text-align: center;}
 /* Medium screen : 992px. */
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -1563,7 +1574,11 @@ ol {
 		padding-top: 5px;
 	}
 }
-
+.red{ 
+	width: 500px;
+	height: 550px;
+}
+.blue{text-align: center;}
 /* Tablet :768px. */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -1752,7 +1767,8 @@ ol {
 		top: calc(30% - 61px);
 	}
 	.featured-box {
-		padding: 100px 15px;
+		
+		text-align: center;
 	}
 	.featured-box .text-box h3,
 	.newsletter-section h2 {
